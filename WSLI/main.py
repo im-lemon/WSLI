@@ -106,4 +106,4 @@ if args.s:
 
 if args.default:
     distro = args.default
-    subprocess.call(["wsl", "--default", distro])
+    subprocess.call(["wsl", "--set-default", distro])
